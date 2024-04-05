@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050505;
+    
+}
+
+.navbar{
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 39, 42);
+    position: relative;
+}
+
+.navbar-brand{
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: antiquewhite;
+    transition: 0.3s ease;
+}
+
+ .navbar .navbar-nav .nav-link{
+    padding: 20px 10px; /* Adjust the padding as needed */
+    margin-right: 10px; /* Add margin between links */
+    color: rgb(238, 231, 231);
+    transition: 0.3s ease;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary.py-3.navbar-light.bg-light.fixed-top {
+    background-color: #424141;
+}
+
+
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: rgb(249, 80, 255);
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+
+
+/* Mobile Nav */
+
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+#bar{
+    
+    padding: 7px;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s ease;
+
+}
+
+#bar:hover,
+#bar.active{
+    color: white;
+}
+
+#navbarSupportedContent > ul{
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#home {
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover; /* or 'contain' based on your preference */
+    background-position: center center; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* #home{
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+} */
+
+#home span{
+    color: aqua;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(43, 189, 226);
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    
+}
+
+
+.card {
+
+    height: 500px;
+}
+
+button:hover {
+    background-color: rgb(127, 127, 175);
+}
+
+h1{
+    color: antiquewhite;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+}
+
+#home h2 {
+    color: antiquewhite;
+}
+
+#home h1{
+    color: antiquewhite;
+}
+
+.center{
+    background-color: black;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+#center h2{
+    color: antiquewhite;
+}
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(189, 189, 206, 0.303);
+}
+
+#new .one .details{
+    color: antiquewhite;
+}
+
+#new .one:nth-child(n) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.new{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-one h1 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.footer-one h5 {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+
+#filters {
+    background-color: black;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+
+#filters h2 {
+    font-size: 18px;
+}
+
+#filters ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#filters li {
+    margin-bottom: 20px;
+    color: white;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.product p{
+    color: antiquewhite;
+}
